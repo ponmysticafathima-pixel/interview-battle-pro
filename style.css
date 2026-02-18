@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:#f4f6f9;
+}
+
+.navbar{
+    background:#1f2937;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:15px 40px;
+}
+
+.navbar button{
+    margin-left:10px;
+    padding:6px 12px;
+    border:none;
+    background:#3b82f6;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.section{
+    display:none;
+    padding:40px;
+    text-align:center;
+}
+
+.active{
+    display:block;
+}
+
+input,select{
+    padding:10px;
+    margin:8px;
+    width:250px;
+}
+
+.primary-btn{
+    background:#2563eb;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.danger-btn{
+    background:#dc2626;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.quiz-box{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    max-width:500px;
+    margin:auto;
+}
+
+#options button{
+    display:block;
+    margin:8px auto;
+    padding:10px;
+    width:80%;
+    border:none;
+    background:#e5e7eb;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+#options button:hover{
+    background:#93c5fd;
+}
+
+#timer{
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.question-item{
+    background:#e5e7eb;
+    margin:5px;
+    padding:5px;
+    border-radius:5px;
+    font-size:13px;
+}
